@@ -1,7 +1,7 @@
 package test01;
 import java.util.Scanner;
 
-public class T5 {
+public class T05 {
 
 	public static void main(String[] args) {	// 짝수와 홀수 구별하기 
 		Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package test01;
 
-public class T1 {
+public class T01 {
 
 	public static void main(String[] args) {
 		final double LIGHT_SPEED = 3e5;		// PI는 상수이므로 final 을 붙인다. 

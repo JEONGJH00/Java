@@ -1,7 +1,7 @@
 package test01;
 import java.util.*;
 
-public class T6 {
+public class T06 {
 
 	final int SCISSOR =0;
 	final int ROCK =1;

@@ -1,6 +1,6 @@
 package test01;
 
-public class T3 {
+public class T03 {
 
 	public static void main(String[] args) {
 		double area1 = 2*3.141592*20*20;
