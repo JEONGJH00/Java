@@ -23,4 +23,4 @@ public class T11 { //숫자 추측 게임
 		System.out.println("정답입니다. 시도한 횟수는 "+n+"회 입니다.");	
 	}
 
-}
+}//
