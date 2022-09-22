@@ -10,4 +10,4 @@ public class T03 {
 		System.out.println((area1 > area2)?"20cm 피자 면적":"30cm 피자 면적");
 	}
 
-}
+}//
