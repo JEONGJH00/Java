@@ -19,4 +19,4 @@ public class T07 {	// case문을 이용하여 피자 가격을 출력
 		System.out.println("가격은 "+price+"원 입니다.");
 	}
 
-}
+}//
