@@ -12,8 +12,7 @@ public class T13 {
 			System.out.println(a[(int)((Math.random()*100+1)/100*4)]+"의 "+
 		b[(int)((Math.random()*100+1)/100*13)]);
 		}
-			
-		
+				
 	}
-
-}//
+	
+}
