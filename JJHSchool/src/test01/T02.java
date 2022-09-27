@@ -19,4 +19,4 @@ public class T02 {
 		System.out.println("두 수의 합은 "+sum+" 입니다.");
 	}
 
-}//
+}
