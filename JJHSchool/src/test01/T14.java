@@ -6,6 +6,7 @@ class Movie{
 	private int year;
 	private double score;
 	
+	
 	public Movie(String title,String director,int year,String actors,double score) {
 		this.title=title;
 		this.director=director;
@@ -29,6 +30,7 @@ public class T14{
 	public static void main(String[] args) {
 		Movie m = new Movie("티파니에서 아침을","블레이크 에드워즈",1962,"오드리 헵번",8.43);
 		System.out.println(m.toString());
+		
 	}
 	
 }
