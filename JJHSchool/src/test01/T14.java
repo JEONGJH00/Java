@@ -30,5 +30,6 @@ public class T14{
 		Movie m = new Movie("티파니에서 아침을","블레이크 에드워즈",1962,"오드리 헵번",8.43);
 		System.out.println(m.toString());
 	}
+	
 }
 
