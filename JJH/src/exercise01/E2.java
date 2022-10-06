@@ -19,6 +19,7 @@ import java.util.StringTokenizer;
 
 public class E2 {
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     	String s = bf.readLine();
     	StringTokenizer st = new StringTokenizer(s);
@@ -40,5 +41,4 @@ public class E2 {
     	bw.write((int)Math.ceil(result)+"\n");
     	bw.close();
 	}
-
 }
