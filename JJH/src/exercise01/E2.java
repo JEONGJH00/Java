@@ -17,31 +17,27 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class E2 
-{
-	public static void main(String[] args) throws IOException 
-	{
+public class E2 {
+	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-    	String s = bf.readLine();
-    	StringTokenizer st = new StringTokenizer(s);
-    	int a = Integer.parseInt(st.nextToken());
-    	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-    	int result=-1;
-    	int aMinus=a;
-    	if (a%5==0)
-    		result=a/5;
-    	else if(a%3==0 && a<15)
-    		result=a/3;
-    	else 
-    	{
-    		for(int i=1;i<=a/5;i++) 
-    		{
-    			aMinus-=5;
-    			if(aMinus%3==0)
-    				result=i+aMinus/3;
-    		}
-    	}
-    	bw.write((int)Math.ceil(result)+"\n");
-    	bw.close();
-    }
+		String s = bf.readLine();
+		StringTokenizer st = new StringTokenizer(s);
+		int a = Integer.parseInt(st.nextToken());
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		int result = -1;
+		int aMinus = a;
+		if (a % 5 == 0)
+			result = a / 5;
+		else if (a % 3 == 0 && a < 15)
+			result = a / 3;
+		else {
+			for (int i = 1; i <= a / 5; i++) {
+				aMinus -= 5;
+				if (aMinus % 3 == 0)
+					result = i + aMinus / 3;
+			}
+		}
+		bw.write((int) Math.ceil(result) + "\n");
+		bw.close();
+	}
 }
