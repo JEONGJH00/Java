@@ -37,7 +37,7 @@ public class E2 {
 					result = i + aMinus / 3;
 			}
 		}
-		bw.write((int) Math.ceil(result) + "\n");
+		bw.write(result+"\n");
 		bw.close();
 	}
 }
