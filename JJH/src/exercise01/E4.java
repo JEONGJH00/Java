@@ -32,4 +32,4 @@ public class E4 {
 		}
 		System.out.println(A / (C - B) + 1);
 	}
-}
+}//
