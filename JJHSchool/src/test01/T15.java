@@ -19,4 +19,4 @@ public class T15 {
 		System.out.println("경기자수 : "+s.getPlayers());
 	}
 
-}
+}//
