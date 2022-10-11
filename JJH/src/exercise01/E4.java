@@ -31,5 +31,6 @@ public class E4 {
 			System.exit(0);
 		}
 		System.out.println(A / (C - B) + 1);
+		sc.close();
 	}
 }
