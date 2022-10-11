@@ -19,11 +19,6 @@ class C implements A, B {
 }
 
 public class T16 {
-
-    public static void d() {
-        System.out.println("d");
-    }
-
     public static void main(String[] args) {
         C c = new C();
         System.out.println(c.add(3, 5));
