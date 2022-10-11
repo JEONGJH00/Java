@@ -29,7 +29,6 @@ public class T04 {
 
 		}
 		sc.close();
-
 	}
 
 }//
