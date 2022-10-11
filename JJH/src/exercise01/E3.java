@@ -27,5 +27,6 @@ public class E3 {
 			count++;
 		}
 		System.out.println(count);
+		sc.close();
 	}
 }
