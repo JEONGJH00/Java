@@ -42,4 +42,4 @@ public class T19 {
         ColorPoint cp = new ColorPoint(0, 0, "Red");
         System.out.println(cp.getX() + " " + cp.getY() + " " + cp.getColor());
     }
-}
+}//
