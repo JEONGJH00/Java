@@ -32,4 +32,4 @@ public class T22 {
         JFrame j = new MyFrame();
 
     }
-}
+}//
