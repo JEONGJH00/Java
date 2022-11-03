@@ -1,3 +1,4 @@
+// 스윙 난수 불규칙하게 배치
 package test01;
 
 import java.awt.*;
