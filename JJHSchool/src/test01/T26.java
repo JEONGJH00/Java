@@ -16,10 +16,11 @@ class ClickButton extends JFrame implements ActionListener {
         setTitle("Problem #1");
 
         JPanel panel = new JPanel();
+        button = new JButton("버튼을 눌러보세요");
+        button.setPreferredSize(new Dimension(250, 50));
+        panel.add(button);
         label = new JLabel("클릭 횟수");
         panel.add(label);
-        button = new JButton("버튼을 눌러보세요");
-        panel.add(button);
 
         button.addActionListener(this);
         add(panel);
