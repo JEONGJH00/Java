@@ -12,7 +12,7 @@ class ClickButton extends JFrame implements ActionListener {
 
     public ClickButton() {
         setLayout(new FlowLayout());
-        setSize(300, 200);
+        setSize(500, 200);
         setTitle("Problem #1");
 
         JPanel panel = new JPanel();
