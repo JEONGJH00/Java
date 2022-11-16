@@ -76,7 +76,7 @@ class TicTacToe extends JPanel implements ActionListener {
         }
 
         if (check() == 1) {
-            winBtn.setText("Player1 WIN!");
+            winBtn.setText("P1 WIN!");
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     btnArr[i][j].setEnabled(false);
@@ -84,7 +84,7 @@ class TicTacToe extends JPanel implements ActionListener {
             }
         }
         if (check() == 2) {
-            winBtn.setText("Player2 WIN!");
+            winBtn.setText("P2 WIN!");
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     btnArr[i][j].setEnabled(false);
